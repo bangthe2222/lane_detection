@@ -6,12 +6,10 @@ def middle_lane_point(lines):
     x_const = 360
     x_right_list = []
     x_left_list = []
-    y_check = 350
-    error_y = 0
+
     x_right = 720
     x_left = 0
-    right_line = [910,100,920,200]
-    left_line = [-200,100,-190,200]
+
     for line in lines:
         x1, y1, x2, y2 = line[0]
         x_check = (x1+x2)/2
